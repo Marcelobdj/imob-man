@@ -7,7 +7,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-lg-3 col-md-6">
                         <i className="fas fa-home"></i>
-                        <span className="footer-other-text d-block mt-3 mb-3">
+                        <span className="texto-footer d-block mt-3 mb-3">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
                         </span>
                         <div className="footer-social">
@@ -56,7 +56,7 @@ const Footer = () => {
                     </div>
                     {/*<div className="col-lg-3 col-md-6">
                         <p className="footer-title">Subscribe</p>
-                        <span className="footer-other-text">
+                        <span className="texto-footer">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna
                         </span>
                         <div className="subscribe-area mb-2 mt-2">

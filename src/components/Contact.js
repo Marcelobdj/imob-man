@@ -1,12 +1,12 @@
-const Contact = () => {
+const Contato = () => {
     return (
         <section className="contact">
             <div className="page-top">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                            <h1 className="page-title">Contact</h1>
-                            <h2 className="page-description">Contact</h2>
+                            <h1 className="titulo-pagina">Contato</h1>
+                            <h2 className="descricao-pagina">Contato</h2>
                         </div>
                     </div>
                 </div>
@@ -70,4 +70,4 @@ const Contact = () => {
     )
 }
 
-export default Contact
+export default Contato
