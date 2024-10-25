@@ -4,8 +4,8 @@ import FlatItem from "./FlatItem"
 
 const FlatList = () => {
     const title = {
-        text: "Lorem Ipsum",
-        description: "Lorem ipsum dolor sit ame"
+        text: "Nossas Propriedades",
+        description: "Explore as melhores opções de imóveis para compra e aluguel."
     }
     return (
         <section className="section-all-re">

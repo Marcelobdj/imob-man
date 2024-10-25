@@ -34,11 +34,11 @@ const Banner = () => {
                     <div className="row">
                         <div className="col-lg-6 mx-auto">
                             <div className="banner-area text-center pt-4 pb-4">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                                <h2 className="mt-2 mb-4 banner-title"><strong> Lorem Ipsum Dolor</strong> </h2>
+                                <p>Ache sua casa dos sonhos na Capital do Verde</p>
+                                <h2 className="mt-2 mb-4 banner-title"><strong> As melhores opções de imóveis</strong> </h2>
                                 <div className="search-area">
-                                    <input value={word} onChange={(e) => findSearch(e)} type="text" className="inp-search" placeholder="Search" />
-                                    <button className="btn-search m-2">Search All</button>
+                                    <input value={word} onChange={(e) => findSearch(e)} type="text" className="inp-search" placeholder="Procurar Imóvel" />
+                                    <button className="btn-search m-2">Procurar</button>
                                 </div>
                                 {findResult()}
                             </div>

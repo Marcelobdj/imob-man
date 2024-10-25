@@ -7,8 +7,8 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-lg-3 col-md-6">
                         <i className="fas fa-home"></i>
-                        <span className="footer-other-text d-block mt-3 mb-3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                        <span className="texto-footer d-block mt-3 mb-3">
+                        © 2024 - Imobiliária Manduri - Todos os direitos reservados.
                         </span>
                         <div className="footer-social">
                             <div className="footer-social-item"><i className="fab fa-facebook"></i></div>
@@ -17,24 +17,13 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
-                        <p className="footer-title">Menu</p>
+                        <p className="footer-title">Mapa do site</p>
                         <ul className="footer-ul">
                             <li>Home</li>
-                            <li>Blog</li>
-                            <li>About</li>
+                            <li>Todas as Propriedades</li>
+                            <li>Sobre</li>
                             <li>Contact</li>
                         </ul>
-                    </div>
-                    <div className="col-lg-3 col-md-6">
-                        <div>
-                            <p className="footer-title">Categories</p>
-                            <ul className="footer-ul">
-                                <li>Category 1</li>
-                                <li>Category 2</li>
-                                <li>Category 3</li>
-                                <li>Category 4</li>
-                            </ul>
-                        </div>
                     </div>
 
                     <div className="col-lg-3 col-md-6">
@@ -56,7 +45,7 @@ const Footer = () => {
                     </div>
                     {/*<div className="col-lg-3 col-md-6">
                         <p className="footer-title">Subscribe</p>
-                        <span className="footer-other-text">
+                        <span className="texto-footer">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna
                         </span>
                         <div className="subscribe-area mb-2 mt-2">

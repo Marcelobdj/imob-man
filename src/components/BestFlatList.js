@@ -6,8 +6,8 @@ import BestFlatItem from "./BestFlatItem"
 export default class BestFlatList extends Component {
     render() {
         const title = {
-            text: "Lorem Ipsum",
-            description: "Lorem ipsum dolor sit ame"
+            text: "Não perca estas oportunidades!",
+            description: "Explore nossas propriedades em destaque"
         }
         const settings = {
             infinite: true,
